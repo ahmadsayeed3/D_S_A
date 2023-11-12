@@ -33,6 +33,7 @@ class BinaryTree_{
 		this.rootNode = insertValue(this.rootNode, value);
 	}
 	
+	// Insertion with maintaining sorting order
 	private Node insertValue(Node node, int value){
 		if(node == null){
 			return new Node(value);
@@ -75,6 +76,7 @@ class BinaryTree_{
 		inOrderTraverse(this.rootNode);
 	}
 	
+	// Depth-first traversal
 	private void inOrderTraverse(Node node){
 		if(node == null)
 			return;

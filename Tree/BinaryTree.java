@@ -48,6 +48,7 @@ class BinaryTree_{
 		inOrderTraverse(this.rootNode);
 	}
 	
+	// Depth-first traversal
 	private void inOrderTraverse(Node node){
 		if(node == null)
 			return;
